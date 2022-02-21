@@ -1,0 +1,9 @@
+Check out Codeignitor 4 [Documentation][1]:
+
+Follow the steps to install it in XAMPP -
+
+    Open [xampp_folder_path]/php/php.ini to edit.
+    Search for ;extension=intl and remove the ;.
+    Save the php.ini file and restart Apache.
+    
+    extension=gd

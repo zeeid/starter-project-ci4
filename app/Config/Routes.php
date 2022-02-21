@@ -33,7 +33,8 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 // $routes->METODE REQUEST GET POST/add('/LOKASI URL', 'NAMA CONTROLLER:: NAMA METHOT DI KONTrOLLER');
-$routes->get('/', 'Rumah::index');
+// $routes->get('/', 'Rumah::index');
+$routes->get('/', 'Home::index'); //DEFAULT INDEX CI4
 
 $routes->get('/coba/(:any)/(:num)', 'Coba::about/$1/$2');
 // === Kalau depan pakai any, NGEBUG ngk bisa akses method fungsion controller, jadi perlu dibuat manual routenya
